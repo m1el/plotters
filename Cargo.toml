@@ -3,4 +3,6 @@ members = ["plotters", "plotters-backend", "plotters-bitmap", "plotters-svg"]
 default-members = ["plotters"]
 
 [patch.crates-io]
-pathfinder_geometry = { commit="05f19143e21a96027de7cf2d60fa47ecd8899d21", git = "https://github.com/theoparis/pathfinder.git" }
+pathfinder_geometry = { commit="5104b631", git = "https://github.com/m1el/pathfinder.git" }
+pathfinder_simd = { commit="5104b631", git = "https://github.com/m1el/pathfinder.git" }
+servo-fontconfig-sys = { git = "https://github.com/m1el/libfontconfig", rev = "v4.0.7-fix" }
