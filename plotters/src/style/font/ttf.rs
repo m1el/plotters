@@ -15,11 +15,11 @@ use font_kit::{
     properties::{Properties, Style, Weight},
     source::SystemSource,
 };
-
-use ttf_parser::{Face, GlyphId};
-
 use pathfinder_geometry::transform2d::Transform2F;
 use pathfinder_geometry::vector::{Vector2F, Vector2I};
+use ttf_parser::{Face, GlyphId};
+
+
 
 use super::{FontData, FontFamily, FontStyle, LayoutBox};
 
